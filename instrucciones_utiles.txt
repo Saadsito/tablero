@@ -1,0 +1,9 @@
+//Leer todos los bytes de un archivo
+File file = new File("C:/Users/migue/Desktop/serial/empleado.dat");
+    byte bytes[] = Files.readAllBytes(file.toPath());
+    for(int i = 0; i < bytes.length; i++)
+         System.out.println(bytes[i]);
+
+//Obtener la direccion ip de la maquina
+String address = InetAddress.getLocalHost().getHostAddress();
+
