@@ -171,7 +171,7 @@ public class SalaEsperaController implements Initializable{
               equis6.setVisible(false);
               chulito6.setVisible(true);
             }
-            SonidoPersonaje = java.applet.Applet.newAudioClip(getClass().getResource("/proyect/vegetta777.wav"));
+            SonidoPersonaje = java.applet.Applet.newAudioClip(getClass().getResource("/proyect/sounds/vegetta777.wav"));
             SonidoPersonaje.play();
             lolito1.setVisible(false);
             rubius1.setVisible(false);
@@ -234,7 +234,7 @@ public class SalaEsperaController implements Initializable{
               equis6.setVisible(false);
               chulito6.setVisible(true);
             }
-            SonidoPersonaje = java.applet.Applet.newAudioClip(getClass().getResource("/proyect/lolito.wav"));
+            SonidoPersonaje = java.applet.Applet.newAudioClip(getClass().getResource("/proyect/sounds/lolito.wav"));
             SonidoPersonaje.play();
             vegetta1.setVisible(false);
             rubius1.setVisible(false);
@@ -297,7 +297,7 @@ public class SalaEsperaController implements Initializable{
               equis6.setVisible(false);
               chulito6.setVisible(true);
             }
-            SonidoPersonaje = java.applet.Applet.newAudioClip(getClass().getResource("/proyect/rubius.wav"));
+            SonidoPersonaje = java.applet.Applet.newAudioClip(getClass().getResource("/proyect/sounds/rubius.wav"));
             SonidoPersonaje.play();
             lolito1.setVisible(false);
             vegetta1.setVisible(false);
@@ -360,7 +360,7 @@ public class SalaEsperaController implements Initializable{
               equis6.setVisible(false);
               chulito6.setVisible(true);
             }
-            SonidoPersonaje = java.applet.Applet.newAudioClip(getClass().getResource("/proyect/auronplay.wav"));
+            SonidoPersonaje = java.applet.Applet.newAudioClip(getClass().getResource("/proyect/sounds/auronplay.wav"));
             SonidoPersonaje.play();
             lolito1.setVisible(false);
             rubius1.setVisible(false);
@@ -415,7 +415,7 @@ public class SalaEsperaController implements Initializable{
               equis6.setVisible(false);
               chulito6.setVisible(true);
             }
-            SonidoPersonaje = java.applet.Applet.newAudioClip(getClass().getResource("/proyect/willyrex.wav"));
+            SonidoPersonaje = java.applet.Applet.newAudioClip(getClass().getResource("/proyect/sounds/willyrex.wav"));
             SonidoPersonaje.play();
             lolito1.setVisible(false);
             rubius1.setVisible(false);
@@ -470,7 +470,7 @@ public class SalaEsperaController implements Initializable{
               equis6.setVisible(false);
               chulito6.setVisible(true);
             }
-            SonidoPersonaje = java.applet.Applet.newAudioClip(getClass().getResource("/proyect/luzu.wav"));
+            SonidoPersonaje = java.applet.Applet.newAudioClip(getClass().getResource("/proyect/sounds/luzu.wav"));
             SonidoPersonaje.play();
             lolito1.setVisible(false);
             rubius1.setVisible(false);

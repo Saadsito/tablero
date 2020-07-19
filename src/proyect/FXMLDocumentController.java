@@ -100,7 +100,7 @@ public class FXMLDocumentController implements Initializable {
 
     @FXML
     private void jugarClick(MouseEvent event)throws IOException{
-        SonidoBot = java.applet.Applet.newAudioClip(getClass().getResource("/proyect/sonidoboton.wav"));
+        SonidoBot = java.applet.Applet.newAudioClip(getClass().getResource("/proyect/sounds/sonidoboton.wav"));
         SonidoBot.play();
         if("".equals(nombre.getText())){
             Alert alert = new Alert(Alert.AlertType.ERROR);

@@ -18,7 +18,7 @@ public class Proyect extends Application {
         stage.initStyle(StageStyle.UNDECORATED);        
         Scene scene = new Scene(root);
         AudioClip Musica;
-        Musica = java.applet.Applet.newAudioClip(getClass().getResource("/proyect/sweden.wav"));
+        Musica = java.applet.Applet.newAudioClip(getClass().getResource("/proyect/sounds/sweden.wav"));
         Musica.play();
         stage.setScene(scene);
         stage.show();

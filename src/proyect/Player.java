@@ -4,7 +4,7 @@ package proyect;
 public class Player {
     private String nombre, personaje, ip;
     private int numjugador;
-    private Inventario inventario;
+    //private Inventario inventario;
 
     public String getNombre() {
         return nombre;
@@ -37,7 +37,7 @@ public class Player {
     public void setNumjugador(int numjugador) {
         this.numjugador = numjugador;
     }
-
+/*
     public Inventario getInventario() {
         return inventario;
     }
@@ -53,4 +53,5 @@ public class Player {
         this.numjugador = numjugador;
         this.inventario = inventario;
     }
+*/
 }
